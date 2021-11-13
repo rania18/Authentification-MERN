@@ -9,6 +9,6 @@ router.post('/register',
    body('password','password must be 6 characters minimum').isLength({ min: 5 }), 
    registerController
 );
-router.post('/login', loginController)
+router.post('/login', loginController);
 
 module.exports = router;
