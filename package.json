@@ -1,0 +1,28 @@
+{
+  "name": "authentification-mern",
+  "version": "1.0.0",
+  "description": "Authentification with MERN",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rania18/Authentification-MERN.git"
+  },
+  "author": "Rania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rania18/Authentification-MERN/issues"
+  },
+  "homepage": "https://github.com/rania18/Authentification-MERN#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15"
+  }
+}
